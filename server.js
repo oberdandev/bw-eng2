@@ -38,8 +38,8 @@ app.post('/', (req, res)=> {
   }
 
   const emailOpcoes = {
-    from: `${nome} <${email}>`,
-    to: "rfa  lcaao@gmail.com",
+    from: `${nome}  <${email}>`,
+    to: "contato@fiapotec.com.br",
     subject: `Proposta de Orçamento de ${nome}`,
     text: `Orçamento pelo site - Cliente: ${nome}`,
     html: `<!DOCTYPE html>
