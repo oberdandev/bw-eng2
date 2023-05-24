@@ -13,7 +13,7 @@ form.addEventListener('submit',  async function(e){
   const data = Object.fromEntries(prePayload)
   console.log(data)
 
-  fetch('http://fiapotec.onrender.com', { 
+  fetch('http://fiapotec.onrender.com/', { 
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

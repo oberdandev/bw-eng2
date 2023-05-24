@@ -6,7 +6,7 @@ import cors from 'cors';
 const app = express();
 const PORT = process.env.PORT || 3000
 
-app.listen(PORT, ()=> console.log('running at: http://localhost:3000'))
+app.listen(PORT, ()=> console.log('running at PORT: ' + PORT));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
