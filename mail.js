@@ -6,7 +6,7 @@ const password = process.env.ZOHO_MAIL_PASS
 const user = process.env.ZOHO_MAIL_USER
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.zoho.com",
+  host: "mail.fiapotec.com.br",
   secure: true,
   port: 465,
   auth: {
